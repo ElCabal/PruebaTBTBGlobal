@@ -10,8 +10,10 @@ Se creó la base de datos en PostgreSQL y se generaron 2 Scripts, el primero par
 ### TEST 2
 Se desarrolló un API REST en NodeJs que se conecta con la base de datos del test 1 y se crearon 4 endpoints CRUD con los métodos HTTP (GET, POST, PUT, DELETE) para manipular la información."
 ### TEST 3
-Se desarrolló una APP WEB consumiendo la API jsonplaceholder donde se hicieron 2 versiones para mostrar la información, la primera versión es un listado de usuarios con un filtro por búsqueda por nombre en datatables y la segunda versión en tarjetas
-Para ejecutar la aplicación se requiere instalar los módulos npm con el comando "npm install" y para levantar el servidor "npm run dev"
+Se desarrolló una APP WEB consumiendo la API jsonplaceholder donde se hicieron 2 versiones para mostrar la información, la primera versión es un listado de usuarios con un filtro por búsqueda por nombre en datatables y la segunda versión en tarjetas. <br>
+Para ejecutar la aplicación se requiere instalar los módulos npm con el comando: <br> 
+* npm install <br>
+* npm run dev
 #### Tecnologías Utilizadas 🛠️
 * Vite
 * REACTJS
