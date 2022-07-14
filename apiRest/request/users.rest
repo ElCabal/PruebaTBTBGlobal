@@ -1,0 +1,25 @@
+### SHOW ALL USERS
+GET http://localhost:3000/api/users
+Content-Type: application/json
+
+### CREATE USER 
+POST http://localhost:3000/api/users 
+Content-Type: application/json
+{
+"user_name": "Jhon",
+"user_lastName": "Doe",
+"user_email": "Jhon@doe.com",
+"rol": 3 //The rol is in range of 1 to 3
+}
+
+### GET USER BY ID 
+GET http://localhost:3000/api/users/5
+Content-Type: application/json
+
+### DELETE USER BY ID
+DELETE  http://localhost:3000/api/users/1
+Content-Type: application/json
+
+### UPDATE USER BY ID
+PUT   http://localhost:3000/api/users/1
+Content-Type: application/json
