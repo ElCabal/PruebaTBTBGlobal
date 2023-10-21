@@ -9,7 +9,7 @@ Prueba técnica de conocimientos en bases de datos, backend y frotend.
 Se creó la base de datos en PostgreSQL y se generaron 2 Scripts, el primero para la creación de la base de datos y el segundo para generar consultas.
 ### TEST 2
 Se desarrolló un API REST en NodeJs que se conecta con la base de datos del test 1 y se crearon 4 endpoints CRUD con los métodos HTTP (GET, POST, PUT, DELETE) para manipular la información. <br>
-Para levantar el servidor se requiere instalar los módulos npm  y ejecutar el sevridor con los siguientes comandos: <br>
+Para levantar el servidor se requiere instalar los módulos npm  y ejecutar el servidor con los siguientes comandos: <br>
 
 * npm install
 * npm start o npm run dev <br>
